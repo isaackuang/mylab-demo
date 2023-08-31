@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-  - host: argocd.192.168.15.144.sslip.io
+  - host: argocd.192.168.56.101.sslip.io
     http:
       paths:
       - backend:
@@ -22,5 +22,5 @@ spec:
         pathType: ImplementationSpecific
   tls:
   - hosts:
-    - api.192.168.15.144.sslip.io
+    - api.192.168.56.101.sslip.io
     secretName: tls-rancher-ingress

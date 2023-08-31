@@ -907,7 +907,7 @@ grafana:
     # hosts:
     #   - grafana.domain.com
     hosts:
-     - grafana.192.168.15.144.sslip.io
+     - grafana.192.168.56.101.sslip.io
 
     ## Path for grafana ingress
     path: /
@@ -917,7 +917,7 @@ grafana:
     ##
     tls:
       - hosts:
-        - grafana.192.168.15.144.sslip.io
+        - grafana.192.168.56.101.sslip.io
         secretName: tls-rancher-ingress
 
   sidecar:
